@@ -1,0 +1,59 @@
+body{
+	background-color: lightgrey;
+	p{
+		color: #000;
+	}
+	.navbar{
+		
+		background-color: #000000;
+	}
+	strong{
+		font-size: 120%;
+	}
+	.well {
+   		background-color: rgba(245, 245, 245, 0.4);
+	}
+}
+#about{
+	padding-top:50px;
+	color: #fff; 
+	background-color: #1F211F;
+}
+.portfolio-img{
+	margin-left: 10%;
+	margin-top: 2%;
+}
+#portfolio{
+	padding-top:50px;
+	color: #fff; 
+	background-color: #FFFFFF;
+}
+#contact{
+	padding-top:50px;
+	color: #fff; 
+	background-color: #778899;
+}
+.name{
+	padding-left: 50px;
+}
+.delimiter{
+	font-weight: bolder;
+	font-size: 200%;
+}
+.progress{
+	width: 50%;
+	margin-left: 24%;
+}
+input{
+	border-radius: 5px;
+	border-style: none;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+#frontLine{
+	margin: 10% 15% 10% 15%;
+	color: #E0FFFF;
+	text-align: center;
+	font-size: 200%;
+	font-family: Serif, "Times New Roman", Georgia;
+}
