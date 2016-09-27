@@ -1,3 +1,5 @@
+.sass-cache/*
+.css.map
 *.class
 
 # Mobile Tools for Java (J2ME)
