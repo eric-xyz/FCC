@@ -1,0 +1,47 @@
+body{
+	background-color: #006400 !important;
+	height: 100%;
+}
+p{
+	font-size: 150%;
+	color: #D3D3D3;
+}
+i{
+	color: #FFA500;
+}
+#headLine{
+	margin-top: 5%;
+}
+#icon{
+	padding-top: 5px;
+	float:left;
+	padding-right: 10px;
+}
+#content-section{
+	height: 600px;
+}
+#location{
+	float:left;
+	font-size: 150%;
+	text-align: center;
+	font-weight: bolder;
+}
+#id{
+	text-align: center;
+	font-size: 75% !important;
+	margin-bottom: 2%;
+	height: 100px;
+}
+#about{
+	background-color: #A9A9A9;
+}
+#disclaimer{
+	font-size: 75%
+}
+
+.nav-div{
+	height: 50px;
+}
+.navbar-inverse{
+	background-color: rgba(0,0,0,0.3) !important;
+}
