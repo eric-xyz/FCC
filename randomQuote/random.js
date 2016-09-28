@@ -3,6 +3,10 @@ $(document).ready(function(){
     $("button").click(function(){
    		getQuote();
     });
+
+	$("#share").click(function(){
+		sentToTwitter();
+	});   
 });
 
 function getQuote(){
@@ -21,7 +25,16 @@ function getQuote(){
 		}
 	});
 }
+var baseURL = "https://twitter.com/intent/tweet?hashtags=quotes";
 function updateQuote(response){
 	$("#quote").text(response.quote);
 	$("cite").text(response.author);
+}
+
+function sentToTwitter(){
+	var currentQuote = $("#quote").text();
+	var currentAuthor = $("cite").text();
+	var URL = baseURL + encodeURIComponent('"' + currentQuote + '" ' + currentAuthor);
+	window.open(URL, 'Share', 'width=650, height=500, toolbar=0, scrollbars=1 ,location=0 ,statusbar=0,menubar=0, resizable=0');
+
 }
