@@ -1,0 +1,40 @@
+.navbar .navbar-nav {
+  text-align: center;
+  float: none;
+  background: rgba(122, 130, 136, 0.2)!important;
+}
+.collapse-only{
+  background: rgba(122, 130, 136, 0.2)
+}
+#share{
+	margin-left: 5%;
+}
+#newQuote{
+	float: right;
+	margin-right: 5%;
+}
+#fullContainer{
+	height: 100% !important;
+	background-color: #228B22 !important;
+}
+
+#quoteContainer{
+	margin-top: 10%;
+	display: table-cell;
+	height: 380px;
+	width: 550px;
+}
+#quoteArea{
+	height: 80%;
+	width: 90%;
+	margin: 5% 5% 0% 5%;
+}
+#about-Page{
+	height: 100px;
+	background-color: #D3D3D3;
+
+}
+#about-Me{
+	height: 150px;
+	background: rgba(0, 0, 0, 0.4)!important;
+}
