@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+    background-color: #2E8B57 !important;
+}
+#label-div{
+	height: 40px;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 18%;
+}
+#search-div{
+	height: 100px;
+	width: 260px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+p{
+	color: #E6E6FA;
+	font-weight: bolder;
+}
+.text-center{	
+	font-size: 120%;
+}
+i{
+	margin: 0 auto;
+	color: #00BFFF;
+	font-size: 80px !important;
+	padding-bottom: 10px;
+}
+
+a{
+	padding-left: 15px;
+	text-decoration: none !important;
+	font-size: 1.5em;
+	color: #E6E6FA !important;
+
+}
