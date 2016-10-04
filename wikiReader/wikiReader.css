@@ -4,18 +4,41 @@ html, body{
 }
 #label-div{
 	height: 40px;
-	width: 300px;
+	width: 350px;
 	margin: 0 auto;
 	margin-top: 18%;
+	text-align: center;
 }
-#search-div{
+#submit{
+	color: #E6E6FA;
+	text-align: center;
+	margin: 0 auto;
+	border-style: none;
+	text-align: center;
+	background-color: #2E8B57;
+}
+@keyframes myChange {
+    from {
+        width: 0px;
+    } to {
+        width: : 250px;
+    }
+}
+.keyWordInput{
+	animation: 1.0s myChange;
+	width: 250px;
+	border-radius: 10px;
+	border-color: #D2691E;
+	margin-top: 10%;
+	margin-bottom: 35px;
+}
+.searchDiv{
 	height: 100px;
-	width: 260px;
+	width: 300px;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
 }
-
 p{
 	color: #E6E6FA;
 	font-weight: bolder;
