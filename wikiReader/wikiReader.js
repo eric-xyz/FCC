@@ -5,11 +5,9 @@ firstApp.controller('ctrl', function($scope, $http, $log){
 	$scope.inputClass = "";
 	$scope.inputHide = true;
 	$scope.keyword ="";
-	// var baseUrl = "https://en.wikipedia.org/w/api.php?"
-	// 					+"action=query&format=json&list=search&srsearch=";
-	var baseUrl ="https://en.wikipedia.org/w/api.php?format=json&action=query&" + 
-				 "generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts" + 
-				 "&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=";
+	// var baseUrl ="https://en.wikipedia.org/w/api.php?format=json&action=query&" + 
+	// 			 "generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts" + 
+	// 			 "&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=";
     var suffix = "&callback=JSON_CALLBACK";
 
 	$scope.hideIcon = function(){
